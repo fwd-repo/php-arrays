@@ -7,7 +7,10 @@ $iceCream = array(
   'Rialla' => 'Strawberry'
 );
 
-echo $iceCream['Alena'];
+$iceCream['alena'] = 'Pistachio';
+$iceCream['Dave Thomas'] = 'Cookies and Cream';
+$iceCream[] = 'Vanilla';
+$iceCream['Andrew'] = true;
 var_dump($iceCream);
 
 ?>
